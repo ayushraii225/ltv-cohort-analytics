@@ -292,7 +292,7 @@ with tab3:
     bins = np.arange(0, 365, 30)
     df_eval["day_bin"] = pd.cut(df_eval["days_since_first"], bins=bins, labels=bins[:-1])
     
-    cum_actual = df_eval.groupby("day_bin")["amount"].sum().cumsum().reset_index()
+    cum_actual = df_eval.groupby("day_bin", observed=True)["amount"].sum().cumsum().reset_index()
     cum_actual.columns = ["day_bin", "actual_cumulative"]
     
     # Scale to display user trajectory average

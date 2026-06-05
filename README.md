@@ -2,7 +2,7 @@
 
 > A production-grade, interactive analytics dashboard for growth marketing & subscription unit economics — built with Python, Pandas, Scikit-learn, and Streamlit.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ayushraii225-ltv-cohort-analytics-app-2jzhcj.streamlit.app/)
 
 ---
 
